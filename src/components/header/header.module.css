@@ -1,0 +1,49 @@
+.header {
+  height: auto;
+	margin-bottom: 46px;
+}
+
+.list {
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+	margin-right: 23px;
+}
+
+.logo__img {
+	height: 168px;
+	width: auto;
+	margin-right: 8px;
+}
+
+.wrapper {
+	display: flex;
+	padding: 20px;
+}
+
+.link {
+	font-size: 32px;
+	color: #bbb5b5;
+	font-weight: 500;
+	background: #434343;
+	padding: 2px 20px;
+	transition: 0.4s ease;
+	display: block;
+	width: 100%;
+}
+
+.link:hover {
+	color: rgb(252 114 23 / 80%);
+	background: #1d1c1c5c;
+	
+}
+
+.item:not(:last-child) {
+	margin-bottom: 15px;
+}
+
+.code {
+	color: #faebd7bd;
+  font-size: 15px;
+  max-width: 666px;
+}

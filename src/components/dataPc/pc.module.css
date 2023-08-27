@@ -1,0 +1,41 @@
+.title {
+  color: aliceblue;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.item {
+  /* margin-right: 15px; */
+  margin-bottom: 36px;
+  border: 2px solid rgb(108, 0, 151);
+}
+
+.item:nth-child(3n) {
+  margin-right: 0;
+}
+
+.title__page {
+  font-size: 46px;
+  color: white;
+}
+
+.description {
+  color: aliceblue;
+}
+
+.img {
+  /* border: 2px solid rgb(108, 0, 151); */
+}
+
+.price {
+  color: aliceblue;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,19 @@
+
+.list {
+
+}
+
+.item {
+  margin-bottom: 10px;
+}
+
+.link {
+  font-family: var(--economica);
+  font-size: 46px;
+  color: #faebd7bd;
+  
+}
+
+.link:hover {
+  color: blueviolet;
+}
