@@ -8,7 +8,7 @@ export default function TheHeader() {
     <header className={styles.header}>
       <div className="container">
         <div className={styles.wrapper}>
-          <Link href="/">
+          <Link href="./">
             <Image
               className={styles.logo__img}
               src={img}
